@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Tailwind CSS CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Devchallenges | Team Page</title>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .vertical-lr {
+          writing-mode: vertical-lr;
+        }
+        .parent {
+          margin-top: 100px;
+        }
+        .small {
+          margin-top: 64px;
+        }
+        .clear {
+          margin-top: 0;
+        }
+        .pt-serif {
+          font-family: "PT Serif", serif;
+        }
+        .poppins {
+          font-family: "Poppins", sans-serif;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="px-8">
+      <div class="flex flex-col justify-around mb-16 mt-16 md:flex-row">
+        <div class="">
+          <h1 class="font-bold text-3xl py-8 pt-serif">The Creative Crew</h1>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl pb-4 poppins">WHO WE ARE</h3>
+          <p class="text-gray-600 pb-10 poppins">
+            We are team of creatively diverse. driven.<br />
+            innovative individuals working in various<br />
+            locations from the world.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2 place-items-center place-content-around"
+      >
+        <div class="w-2/5 relative">
+          <img class="w-10/12 md:w-11/12" src="/photo1.png" alt="" srcset="" />
+          <h3 class="font-semibold text-lg poppins">Bill Mahoney</h3>
+          <p class="vertical-lr absolute top-0 -right-2 uppercase pt-serif">
+            Product owner
+          </p>
+        </div>
+
+        <div class="w-2/5 relative md:parent small">
+          <img class="w-10/12 md:w-11/12" src="/photo2.png" alt="" srcset="" />
+          <h3 class="font-semibold text-lg poppins">Saba Cabrera</h3>
+          <p class="vertical-lr absolute top-0 -right-2 uppercase pt-serif">
+            Art director
+          </p>
+        </div>
+
+        <div class="w-2/5 relative">
+          <img class="w-10/12 md:w-11/12" src="/photo3.png" alt="" srcset="" />
+          <h3 class="font-semibold text-lg poppins">Shae Le</h3>
+          <p class="vertical-lr absolute top-0 -right-2 uppercase pt-serif">
+            Tech Lead
+          </p>
+        </div>
+
+        <div class="w-2/5 relative small md:clear">
+          <img class="w-10/12 md:w-11/12" src="/photo4.png" alt="" srcset="" />
+          <h3 class="font-semibold text-lg poppins">Skylah Lu</h3>
+          <p class="vertical-lr absolute top-0 -right-2 uppercase pt-serif">
+            UX Designer
+          </p>
+        </div>
+
+        <div class="w-2/5 relative md:parent">
+          <img class="w-10/12 md:w-11/12" src="/photo5.png" alt="" srcset="" />
+          <h3 class="font-semibold text-lg poppins">Griff Richards</h3>
+          <p class="vertical-lr absolute top-0 -right-2 uppercase pt-serif">
+            Developer
+          </p>
+        </div>
+
+        <div class="w-2/5 relative small md:clear">
+          <img class="w-10/12 md:w-11/12" src="/photo6.png" alt="" srcset="" />
+          <h3 class="font-semibold text-lg poppins">Stan John</h3>
+          <p class="vertical-lr absolute top-0 -right-2 uppercase pt-serif">
+            Developer
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center mt-12 poppins">
+      © 2022 Thu Nghiem, devChallenges.io
+    </footer>
+  </body>
+</html>
